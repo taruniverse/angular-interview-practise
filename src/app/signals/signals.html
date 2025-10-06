@@ -1,0 +1,21 @@
+<div class="signals">
+  <!-- Count Update Signals -->
+  <div class="count">
+    <p class="text-normal">{{ countSignal() }}</p>
+    <p class="text-normal">{{ double() }}</p>
+    <br />
+    <div>
+      <button class="button-13" (click)="incrementItem('count')">Increment</button> &nbsp;
+      <button class="button-13" (click)="decrementItem('count')">Decrement</button>
+    </div>
+  </div>
+  <!-- Array Mutate Signals -->
+  <div class="array">
+    <p class="text-normal">{{ arraySignal() | json }}</p>
+    <br />
+    <div>
+      <button class="button-13" (click)="incrementItem('array')">Increment</button> &nbsp;
+      <button class="button-13" (click)="decrementItem('array')">Decrement</button>
+    </div>
+  </div>
+</div>
