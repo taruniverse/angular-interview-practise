@@ -32,6 +32,21 @@ export const routes: Routes = [
   // 8. NavigationCancel
   // 9. NavigationError
   // 10. Scroll
+
+  // stategy
+  // 1. preloading all the modules - 
+  // 2. preloading features - 
+  // 3. preloading strategy - 
+  // 4. nopreloading - 
+  // 5. withpreloading - 
+  // 6. RouterPreloader - 
+
+  // other topics
+  // 1. RunGuardsAndResolvers
+  // 2. Title
+  // 3. matcher
+
+
   {
     path: 'signals',
     component: Signals,
